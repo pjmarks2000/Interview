@@ -1,0 +1,18 @@
+• A Kubernetes Pod is stuck in CrashLoopBackOff. How would you troubleshoot and resolve it?
+🏗️ Terraform
+• What would you do if a Terraform deployment failed due to a state file lock?
+• What happens if a Terraform-managed resource is manually deleted outside Terraform but still exists in the code?
+• During terraform apply, if Terraform plans to delete critical resources unexpectedly, how would you handle it?
+🚀 CI/CD & Deployments
+• How would you optimize a CI/CD pipeline if execution time increases significantly (1–1.5 hours)?
+• Explain deployment strategies like Blue-Green, Rolling, and Canary deployments.
+☁️ Architecture & Production Scenarios
+• How would you design a highly available production-grade microservices architecture across multiple environments?
+• A critical incident occurred in production. How would you handle and troubleshoot it?
+• Can you explain the concept of Immutable Infrastructure and its advantages?
+🐧 Linux & Automation
+• Can you write a shell script to monitor application health and automatically restart the application if it goes down?
+📊 Monitoring
+• How does proactive monitoring and alerting help reduce downtime in production environments?
+These kinds of interviews really test not just tool knowledge, but also troubleshooting, architecture thinking, and real-world problem-solving.
+Learning never stops 🚀
