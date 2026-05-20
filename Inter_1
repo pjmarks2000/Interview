@@ -16,3 +16,18 @@
 • How does proactive monitoring and alerting help reduce downtime in production environments?
 These kinds of interviews really test not just tool knowledge, but also troubleshooting, architecture thinking, and real-world problem-solving.
 Learning never stops 🚀
+
+
+Some of the questions discussed in the interview:
+
+✅ What is a Container?
+✅ How do you reduce Docker image size?
+✅ What is the exact purpose of Kubernetes?
+✅ What is Kubelet?
+✅ What is Kube-proxy?
+✅ If 50% of the pods go into Pending state during peak traffic, how will you troubleshoot it?
+✅ How do you structure Python microservices?
+✅ Explain managing 200+ microservices deployed on AWS EKS.
+✅ What are the stages in a CI/CD pipeline?
+
+The discussion was more practical and scenario-based rather than only theory. It was a great learning experience to explain real-time troubleshooting, scaling, CI/CD automation, and Kubernetes production use cases.
