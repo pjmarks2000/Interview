@@ -54,3 +54,42 @@ How would you implement blue-green deployment in Kubernetes?
 How would you troubleshoot ingress controller issues?
 How would you manage RBAC permissions in Kubernetes?
 How would you reduce downtime during cluster upgrades?
+
+
+. What is the purpose of reusable workflows in GitHub Actions?
+2. How do you prevent secrets or credentials from being pushed to GitHub repositories?
+3. How do you handle multiple Java versions in GitHub Actions pipelines?
+4. What is dependency scanning in a CI/CD pipeline, and why is it important?
+5. What is the Trunk-Based Development Git strategy?
+6. How do you clean up completed GitHub Actions workflow runs?
+7. How do GitHub Actions runner pods scale dynamically in Kubernetes?
+
+### 🔹 Docker
+
+8. How do you build and manage Docker images that support multiple architectures such as AMD64 and ARM64?
+9. What is the difference between COPY and ADD in a Dockerfile?
+10. How do you reduce Docker image size for production workloads?
+11. What happens internally when you run docker build?
+
+### 🔹 AWS / Cloud
+
+12. What AWS cost optimization strategies have you implemented in production environments?
+13. Explain the step-by-step process to upgrade an Amazon EKS cluster with zero or minimal downtime.
+14. What is AWS PrivateLink, and how does it differ from VPC Peering and Transit Gateway?
+15. How do you design Disaster Recovery (DR) for a multi-region AWS architecture?
+16. How do you grant IAM permissions to Kubernetes workloads in EKS using IRSA?
+
+### 🔹 Kubernetes
+
+17. What is the difference between Deployment, StatefulSet, and DaemonSet?
+18. What are Pod Security Standards (PSS) in Kubernetes, and how do they enforce security?
+19. What is a Pod Disruption Budget (PDB), and why is it important?
+20. How does Kubernetes service discovery work internally?
+21. How does Kubernetes scheduling decide pod placement?
+
+### 🔹 Terraform / IaC
+
+22. What is the purpose of Terraform state, and why is remote state important?
+23. How do you manage multiple environments (dev, staging, prod) in Terraform?
+24. What happens if Terraform state file is deleted and no backup exists?
+25. How do you handle drift detection in Terraform-managed infrastructure?
