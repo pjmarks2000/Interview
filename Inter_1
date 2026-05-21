@@ -93,3 +93,50 @@ How would you reduce downtime during cluster upgrades?
 23. How do you manage multiple environments (dev, staging, prod) in Terraform?
 24. What happens if Terraform state file is deleted and no backup exists?
 25. How do you handle drift detection in Terraform-managed infrastructure?
+
+
+
+Here are the MOST important scenarios they asked (the ones that matter in real interviews):
+
+𝟏. 𝐇𝐢𝐠𝐡-𝐓𝐫𝐚𝐟𝐟𝐢𝐜 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐋𝐚𝐠𝐠𝐢𝐧𝐠 𝐃𝐮𝐫𝐢𝐧𝐠 𝐏𝐞𝐚𝐤 𝐇𝐨𝐮𝐫𝐬
+Scenario: A high-traffic app on AWS shows high latency and occasional downtime during peak hours.
+What they expected:
+• Check CloudWatch metrics (CPU, memory, network, latency).
+• Analyze ELB Target Health & 5XX errors.
+• Verify Auto Scaling thresholds & cooldown periods.
+• Use X-Ray for bottleneck tracing.
+• Recommend solutions like ALB + Auto Scaling, caching with CloudFront, DB read replicas.
+
+𝟐. 𝐎𝐧-𝐏𝐫𝐞𝐦 𝐭𝐨 𝐀𝐖𝐒 𝐌𝐢𝐠𝐫𝐚𝐭𝐢𝐨𝐧 𝐖𝐢𝐭𝐡 𝐌𝐢𝐧𝐢𝐦𝐚𝐥 𝐃𝐨𝐰𝐧𝐭𝐢𝐦𝐞
+Scenario: Your company wants to migrate its entire data center to AWS with near-zero downtime.
+What they expected:
+• Use AWS DMS for continuous replication.
+• VPN/Direct Connect for secure connectivity.
+• Pilot Light vs Warm Standby migration strategy.
+• Pre-cutover validation and rollback strategy.
+
+𝟑. 𝐋𝐚𝐦𝐛𝐝𝐚 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧𝐬 𝐒𝐥𝐨𝐰𝐢𝐧𝐠 𝐃𝐨𝐰𝐧 (𝐓𝐢𝐦𝐞𝐨𝐮𝐭𝐬 & 𝐃𝐞𝐥𝐚𝐲𝐬)
+Scenario: Lambda starts taking longer than usual and randomly times out.
+What they expected:
+• Check concurrency limits, cold starts, VPC networking.
+• Use Provisioned Concurrency if API-facing.
+• Optimize memory (CPU scales with memory).
+• Move heavy tasks to SQS + Lambda async model.
+• Use CloudWatch Insights to find slow code paths.
+
+𝟒. 𝐃𝐞𝐬𝐢𝐠𝐧𝐢𝐧𝐠 𝐚 𝐂𝐨𝐬𝐭-𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐞𝐝 𝐒𝐭𝐨𝐫𝐚𝐠𝐞 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞
+Scenario: Storage cost is increasing drastically due to growing data volume.
+What they expected:
+• S3 lifecycle policies (IA → Glacier → Deep Archive).
+• Intelligent Tiering for unpredictable access.
+• Use compression, partitioning (Athena / EMR).
+• Clean orphan snapshots & EBS Right-Sizing.
+• Data archival strategy.
+
+𝟓. 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐢𝐧𝐠 𝐚 𝐇𝐢𝐠𝐡𝐥𝐲 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 & 𝐅𝐚𝐮𝐥𝐭-𝐓𝐨𝐥𝐞𝐫𝐚𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦
+Scenario: You must design a production architecture with 99.99% uptime.
+What they expected:
+• Multi-AZ RDS, Multi-AZ ASGs, ALB/NLB in multiple AZs.
+• Route 53 health checks + failover routing.
+• SQS + SNS for decoupling.
+• Use Infrastructure as Code (Terraform/CloudFormation).
