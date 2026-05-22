@@ -161,3 +161,70 @@ What they expected:
 9.  terraform plan shows a resource will be destroyed & recreated.
 How do you avoid downtime?
 
+
+Preparing for Senior DevOps / Cloud Engineer interviews?
+Here are some real-time, scenario-based interview questions commonly asked for professionals with 5+ years of experience in DevOps, AWS Cloud, Kubernetes, Terraform, CI/CD, and Production Support.
+━━━━━━━━━━━━━━━━━━━━━━
+☁️ AWS & Cloud
+🔹 Difference between Security Groups and NACLs
+🔹 How do you secure S3 buckets in production?
+🔹 ALB vs NLB — when would you use each?
+🔹 Designing highly available architecture in AWS
+🔹 IAM Roles and Cross-Account Access
+🔹 VPC Peering vs Transit Gateway
+🔹 EKS vs ECS vs EC2 deployments
+🔹 AWS cost optimization strategies in production
+
+☸️ Kubernetes & Containers
+🔹 Troubleshooting Pods in CrashLoopBackOff state
+🔹 Deployment vs StatefulSet vs DaemonSet
+🔹 Kubernetes service discovery explained
+🔹 How Ingress works internally
+🔹 HPA and cluster autoscaling concepts
+🔹 Taints & Tolerations use cases
+🔹 Debugging Pod-to-Pod networking issues
+🔹 Kubernetes security best practices
+
+⚙️ CI/CD & Automation
+🔹 Explain your end-to-end CI/CD pipeline
+🔹 Blue-Green vs Canary Deployments
+🔹 Zero-downtime deployment strategies
+🔹 Rollback mechanisms in production
+🔹 Managing secrets in pipelines
+🔹 Jenkins / Azure DevOps / GitHub Actions challenges
+🔹 Handling production deployment failures
+
+🏗️ Terraform & Infrastructure as Code
+🔹 Terraform state management
+🔹 Remote backend & state locking
+🔹 Terraform modules best practices
+🔹 count vs for_each
+🔹 Handling Terraform drift
+🔹 Structuring Terraform for large-scale infrastructure
+🔹 Deploying AWS EKS using Terraform
+
+📊 Monitoring & Troubleshooting
+🔹 Prometheus & Grafana architecture
+🔹 Troubleshooting high CPU / memory usage
+🔹 Handling production outages
+🔹 Centralized logging strategies
+🔹 Metrics vs Logs vs Traces
+🔹 Root Cause Analysis (RCA) approach
+🔹 Alerting and monitoring best practices
+━━━━━━━━━━━━━━━━━━━━━━
+🐧 Linux & Networking
+🔹 Linux boot process
+🔹 DNS resolution flow
+🔹 TCP vs UDP
+🔹 NAT Gateway vs Internet Gateway
+🔹 CIDR & subnetting concepts
+🔹 Disk space troubleshooting in Linux
+🔹 Reverse Proxy and Load Balancing
+ Scenario-Based Questions
+✅ Kubernetes app failed after deployment — how would you troubleshoot?
+✅ AWS region outage — what is your DR strategy?
+✅ Terraform deployment failed midway — recovery steps?
+✅ EKS nodes not joining cluster — debugging approach?
+✅ Pod unable to access AWS SQS — troubleshooting steps?
+✅ CloudWatch alarms not triggering — possible reasons?
+✅ Explain a major production incident you handled
