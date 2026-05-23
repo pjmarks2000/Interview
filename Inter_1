@@ -228,3 +228,40 @@ Here are some real-time, scenario-based interview questions commonly asked for p
 ✅ Pod unable to access AWS SQS — troubleshooting steps?
 ✅ CloudWatch alarms not triggering — possible reasons?
 ✅ Explain a major production incident you handled
+
+
+Sharing some of the questions discussed during the interview rounds. These may help others preparing for DevOps / Platform Engineering interviews.
+Sharing some interview questions asked for the Senior Platform Engineer (AWS) role.
+🔹 Terraform Questions
+What is metadata in Terraform?
+What is a dynamic block in Terraform?
+How do you create different workspaces in Terraform?
+Have you created any infrastructure using Terraform?
+What is a Terraform state file?
+How do you lock the Terraform state?
+🔹 GitHub / CI-CD Questions
+What is the workflow in GitHub?
+Why is branching important?
+Why do we create two different branches (production and development)?
+Why can’t we use a single branch with tags instead?
+If two developers push code at the same time, how does the pipeline handle it?
+How does a parallel pipeline work?
+How is Terraform state managed in CI/CD pipelines?
+🔹 AWS / Infrastructure Questions
+How do you connect to an EC2 instance?
+If a public IP is not present, can we still connect to the instance? How?
+Have you worked with AWS Secrets Manager?
+How do you manage secrets?
+How do you use AWS Secrets Manager in a pipeline? What are the steps?
+If a client creates an image, how do you give access to only that ECR image in a CI/CD pipeline?
+🔹 Terraform Practical Questions
+How do you create multiple EC2 instances using a single Terraform file?
+What is the syntax and where do you define the configuration?
+🔹 Load Balancer Questions
+What are the types of load balancers in AWS?
+What are the components of a load balancer?
+Explain with an example.
+🔹 IAM Policy Questions
+How do you create an IAM policy?
+What are the components of a policy?
+Suppose I want to give access to a particular ECR repository — how would you write the policy?
