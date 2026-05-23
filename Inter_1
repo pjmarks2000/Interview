@@ -265,3 +265,35 @@ Explain with an example.
 How do you create an IAM policy?
 What are the components of a policy?
 Suppose I want to give access to a particular ECR repository — how would you write the policy?
+
+1. How can software and tools be automatically installed on an Azure VM Scale Set (VMSS) during scaling events?
+
+2. How would you provision a Virtual Machine using Terraform and automatically install dependencies such as Docker and Kubernetes?
+
+3. Suppose you have two repositories, Repo A and Repo B. How would you reference or consume a file from Repo A inside Repo B?
+
+4. What are the key differences between Azure Traffic Manager and Azure Front Door, and when should each be used?
+
+5. How do you securely establish a connection between Azure Key Vault and Azure App Service?
+
+6. How do you configure monitoring and alerting in Kubernetes when something goes wrong in the cluster?
+
+7. Is it safe to expose a VM using a Public IP and RDP, or is Azure Bastion a better alternative? Why?
+
+8. How do you manage Terraform state files in enterprise environments?
+
+9. What steps would you take if a Terraform state file becomes corrupted?
+
+10. If a CI/CD pipeline fails, how would you troubleshoot and identify the root cause?
+
+11. Can you explain an end-to-end application deployment process using a CI/CD pipeline?
+
+12. What are the best practices for managing secrets securely in Terraform?
+
+13. What is the difference between a Service Endpoint and a Private Endpoint in Azure?
+
+14. What is the difference between ENTRYPOINT and CMD in Docker?
+
+15. Can you explain Kubernetes architecture and the role of its core components?
+
+16. How do you handle drift in terraform?
