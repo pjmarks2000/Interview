@@ -297,3 +297,51 @@ Suppose I want to give access to a particular ECR repository — how would you w
 15. Can you explain Kubernetes architecture and the role of its core components?
 
 16. How do you handle drift in terraform?
+
+
+One thing I noticed:
+Most of the discussion was not around textbook definitions.
+
+Interviewers were more interested in:
+• real production exposure
+• troubleshooting approach
+• Kubernetes & AWS scenarios
+• CI/CD decisions
+• handling pressure situations
+
+Some of the questions I was asked 👇
+
+☸️ Kubernetes / EKS
+• How do you troubleshoot CrashLoopBackOff issues?
+• Difference between HPA and Cluster Autoscaler?
+• How does Ingress work internally?
+• What will you check if pods keep restarting?
+• Deployment vs StatefulSet?
+
+☁️ AWS
+• Difference between Security Groups & NACLs?
+• What happens if one AZ goes down?
+• Explain ALB flow in simple terms
+• Real use case of IAM roles?
+• EC2 Auto Scaling vs Kubernetes autoscaling?
+
+⚙️ CI/CD
+• Explain your pipeline end-to-end
+• How do you handle deployment failures?
+• Blue-Green vs Rolling deployment?
+• How do you rollback production changes?
+
+🏗️ Terraform
+• What is Terraform state?
+• How do you manage remote state?
+• What is configuration drift?
+
+🚨 Scenario-based questions
+• Production is down after deployment — what will you check first?
+• Users report latency spikes — how will you debug?
+• How do you prioritize multiple critical issues?
+
+Honestly, the interviews felt more focused on:
+👉 how you think
+👉 how you troubleshoot
+👉 how you explain real experiences
