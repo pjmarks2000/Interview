@@ -345,3 +345,51 @@ Honestly, the interviews felt more focused on:
 👉 how you think
 👉 how you troubleshoot
 👉 how you explain real experiences
+
+
+I have gathered a set of DevOps interview questions from various interviews, If you are preparing for DevOps interviews, feel free to look at it.
+
+Below Topics are covered 👇 
+
+✅ CICD Pipeline
+✅ Git
+✅ ArgoCD
+✅ Terraform
+✅ AWS
+✅ Networking& Ports
+✅ Kubernetes
+✅ Grafana
+
+1. What are the different ways to create a pipeline?
+2. What are the different sections in declarative pipeline?
+3. What are the different agents you used?
+4. What are the different parameter types you used?
+5. How do you populate value for your parameter dynamically? 
+6. Which parameter you are using to populate value for your parameter dynamically?
+7. What is the difference between active choice reactive parameter and active choice reactive reference parameter?
+8. What is branching strategy?
+9. In Devops Life Cycle, where CI and CD will fit into?
+10. What are the different AWS services you used?
+11.In route 53, what do you mean by a record and AC name record?
+12.What is the difference between error code and C name record?
+13. So suppose you have a web application running and enabled ha for that. If one zone goes down, it needs to be automatically routed to the other region or availability zone. What you will do?
+14. What are the limitations of Lambda functions?
+15.Write a Lambda function for any of the use cases you want?
+16.What are the difference between these two private and public subnet?
+17.Where you will attach your NAT gateway?
+18.. How the traffic from private subnet to this NAT Gateway is a configured?
+19.What is a blue green deployment?
+20. How your Auto scaling strategy is working in your EKS cluster?
+21.What Is PDB?
+22.What are the steps you will take in your upgrading your EKS cluster?
+23.What is Ingress?
+24. In ArgoCD, what are the different components available?
+25. What are the different methods to create a application In another?
+26. In terraform, what is a state file?
+27.What is the use of a life cycle block in terraform resources?
+28.Can you name some of the functions you used in terraform?
+29.What is the use of element?
+30.What is the difference between count and for each?
+31.What is Multi-stage image?
+32.What is the difference between entry point and CMD?
+33. In Grafana how have you created dashboards?
